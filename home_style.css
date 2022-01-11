@@ -1,0 +1,175 @@
+body {
+
+    background: rgb(255, 255, 255) ;
+
+    display: flex;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family: monospace;
+
+    box-sizing: context-box;
+
+}
+
+form {
+
+    width: 400px;
+
+    border: 0px solid rgb(177, 142, 142);
+
+    padding: 10px;
+
+    background: rgb(255, 250, 250);
+
+    border-radius: 0px;
+
+}
+
+h2 {
+
+    text-align: center;
+
+    margin-bottom: 40px;
+
+}
+
+input {
+
+    display: block;
+
+    border: 2px solid #ccc;
+
+    width: 95%;
+
+    padding: 10px;
+
+    margin: 10px auto;
+
+    border-radius: 5px;
+
+}
+
+label {
+
+    color: #888;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+button {
+
+    float: right;
+
+    background: rgb(0,0,139);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button:hover{
+
+    opacity: 0.10;
+
+}
+
+.error {
+
+   background: #F2DEDE;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 95%;
+
+   border-radius: 5px;
+
+   margin: 20px auto;
+
+}
+
+h1 {
+
+    text-align: center;
+
+    color: rgb(134, 3, 3);
+
+}
+
+
+.topnav {
+  background-color: rgb(0,0,139);
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0000FF;
+  color: white;
+}
+
+img {
+  display: block;
+  margin-top : 10px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 2%;   
+}
+
+a {
+
+    float: right;
+
+    background: rgb(183, 225, 233);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}

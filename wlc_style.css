@@ -1,0 +1,161 @@
+body {
+
+    background: #FFFF;
+
+    display: flex;
+
+    justify-content: start;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+*{
+
+    font-family: monospace;
+
+    box-sizing: context-box;
+
+}
+
+
+
+h1 {
+    color : rgb(0,0,139);
+
+    text-align: center;
+
+    font-size : 350%;
+
+    border-style: double;
+
+    margin-bottom: 10px;
+
+}
+h2 {
+    color : rgb(0,0,139);
+
+    text-align: center;
+
+    font-size : 250%;
+;
+
+    margin-bottom: 20px;
+
+}
+h3 {
+    color : rgb(0,0,139);
+
+    text-align: center;
+
+    font-size : 150%;
+
+    padding : 0 15px;
+    margin-bottom: 20px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;   
+}
+
+input {
+
+    display: block;
+
+    border: 2px solid #ccc;
+
+    width: 95%;
+
+    padding: 10px;
+
+    margin: 10px auto;
+
+    border-radius: 5px;
+
+}
+
+label {
+
+    color: #888;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+button {
+
+    float: right;
+
+    background: rgb(35, 174, 202);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    margin-right: 10px;
+
+    border: none;
+
+}
+
+button:hover{
+
+    opacity: 0.10;
+
+}
+
+
+.error {
+
+   background: #F2DEDE;
+
+   color: #0c0101;
+
+   padding: 10px;
+
+   width: 95%;
+
+   border-radius: 5px;
+
+   margin: 20px auto;
+
+}
+
+
+a {
+
+    float: right;
+
+    background: rgb(0,0,139);
+
+    padding: 10px 15px;
+
+    color: #fff;
+
+    border-radius: 10px;
+
+    margin-right: 10px;
+
+    border: none;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+
+    opacity: .7;
+
+}
