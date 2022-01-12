@@ -15,7 +15,7 @@
         <h1> Universal Institute of Technology </h1>
         <h2> UTOP PORTAL </h2>
         
-        <a href="index.php">Login</a>
+        <a href="auth.php">Login</a>
 
         <?php if (isset($_GET['error'])) { ?>
 
