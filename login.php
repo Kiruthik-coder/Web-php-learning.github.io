@@ -15,11 +15,11 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
     $pass = validate($_POST['password']);
 
     if (empty($uname)) {
-        header("Location: index.php?error=User Name is required");
+        header("Location: auth.php?error=User Name is required");
         exit();
     }
     else if(empty($pass)){
-        header("Location: index.php?error=Password is required");
+        header("Location: auth.php?error=Password is required");
         exit();
     }
 
@@ -47,13 +47,13 @@ if (mysqli_num_rows($result) === 1) {
             }
             else{
 
-                header("Location: index.php?error=Incorect User name or password");
+                header("Location: auth.php?error=Incorect User name or password");
 
                 exit();
             }
 }
  else{
-     header("Location: index.php?error=Incorect User name or password");
+     header("Location: auth.php?error=Incorect User name or password");
      exit();
  }
 }
